@@ -6,12 +6,12 @@ A lab where I tinker with quantum computing and quantum machine learning.
 - April 1, 2023 - April 8, 2023
     - [Shor's Algorithm](https://qiskit.org/textbook/ch-algorithms/shor.html)
     - [Quantum phase estimation](https://qiskit.org/textbook/ch-algorithms/quantum-phase-estimation.html)
-        - [Quantum Fourier Transform](https://qiskit.org/textbook/ch-algorithms/quantum-fourier-transform.html)
-        - Fourier basis vs. Computational basis
         - Phase kickback
         - Counting register vs. Auxiliary register
         - n-bit Hadamard gate
         - T-gate
+    - [Quantum Fourier Transform](https://qiskit.org/textbook/ch-algorithms/quantum-fourier-transform.html)
+        - Fourier basis (X-basis) vs. Computational basis (Z-basis)
     - Unitary operator
     - Eigenstate
     - Bra-ket notation
@@ -22,6 +22,10 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 - Qiskit Runtime includes two primitives: Estimator and Sampler. [[3]](https://qiskit.org/documentation/partners/qiskit_ibm_runtime/)
 - Interference effects can be used to design quantum algorithms. [[4]](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
+
+### Notations
+
+- States in Fourier basis are often denoted with ~
 
 ## References
 
