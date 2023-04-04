@@ -4,14 +4,21 @@ A lab where I tinker with quantum computing and quantum machine learning.
 ## Roadmap (TBD)
 
 - April 1, 2023 - April 8, 2023
+    - [Single qubit gates](https://qiskit.org/textbook/ch-states/single-qubit-gates.html)
+        - Bloch sphere
+        - Pauli gates: X-gate (NOT gate), Y-, Z-gates
+        - get_statevector, plot_bloch_multivector
     - [Shor's Algorithm](https://qiskit.org/textbook/ch-algorithms/shor.html)
     - [Quantum phase estimation](https://qiskit.org/textbook/ch-algorithms/quantum-phase-estimation.html)
-        - Phase kickback
+        - [Phase kickback](https://qiskit.org/textbook/ch-gates/phase-kickback.html)
+            - CNOT
         - Counting register vs. Auxiliary register
         - n-bit Hadamard gate
         - T-gate
     - [Quantum Fourier Transform](https://qiskit.org/textbook/ch-algorithms/quantum-fourier-transform.html)
         - Fourier basis (X-basis) vs. Computational basis (Z-basis)
+        - Controlled rotation CROT
+    - [OpenQASM](https://github.com/openqasm/openqasm)
     - Unitary operator
     - Eigenstate
     - Bra-ket notation
