@@ -3,6 +3,15 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 ## Roadmap (TBD)
 
+- April 9, 2023 - April 15, 2023
+    - [HHL Algorithm](https://youtu.be/hQpdPM-6wtU)
+        - [Quantum Matrix Inversion](https://youtu.be/24gxm-DhH2E)
+        - Hermitian simulation
+        - Rejection sampling
+    - Quantum SVM
+    - Quantum PCA
+    - QRAM
+
 - April 1, 2023 - April 8, 2023
     - [Single qubit gates](https://qiskit.org/textbook/ch-states/single-qubit-gates.html)
         - Bloch sphere
