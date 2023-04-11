@@ -8,9 +8,11 @@ A lab where I tinker with quantum computing and quantum machine learning.
         - [Quantum Matrix Inversion](https://youtu.be/24gxm-DhH2E)
         - Hermitian simulation
         - Rejection sampling
-    - Quantum SVM
-    - Quantum PCA
-    - QRAM
+    - [Classical vs. Quantum ML](https://youtu.be/OstyW7c0v48)
+        - QRAM
+        - [Quantum SVM](https://youtu.be/OKbcJCUx6xA)
+        - Quantum PCA
+    - [Grover's Algorithm](https://youtu.be/0RPFWZj7Jm0)
 
 - April 1, 2023 - April 8, 2023
     - [Single qubit gates](https://qiskit.org/textbook/ch-states/single-qubit-gates.html)
