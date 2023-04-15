@@ -10,7 +10,10 @@ A lab where I tinker with quantum computing and quantum machine learning.
         - Rejection sampling
     - [Classical vs. Quantum ML](https://youtu.be/OstyW7c0v48)
         - QRAM
-        - [Quantum SVM](https://youtu.be/OKbcJCUx6xA)
+        - [Quantum Kernel Machine Learning](https://qiskit.org/ecosystem/machine-learning/tutorials/03_quantum_kernel.html)
+            - Kernel trick
+            - [Quantum SVM](https://youtu.be/OKbcJCUx6xA)
+            - Spectral clustering
         - Quantum PCA
     - [Grover's Algorithm](https://youtu.be/0RPFWZj7Jm0)
 
