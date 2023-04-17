@@ -1,4 +1,6 @@
 jupyterlab==3.6.3
 matplotlib==3.7.1
 pandas==1.5.3
+pennylane==0.29.1
+pennylane-sf==0.29.0
 qiskit==0.42.1

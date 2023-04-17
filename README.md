@@ -1,7 +1,11 @@
 # quantum-lab
 A lab where I tinker with quantum computing and quantum machine learning.
 
-## Roadmap (TBD)
+## Roadmap
+
+- April 16, 2023 - April 22, 2023
+    - Function fitting
+    
 
 - April 9, 2023 - April 15, 2023
     - [HHL Algorithm](https://youtu.be/hQpdPM-6wtU)
@@ -44,7 +48,7 @@ A lab where I tinker with quantum computing and quantum machine learning.
 - Qiskit Runtime includes two primitives: Estimator and Sampler. [[3]](https://qiskit.org/documentation/partners/qiskit_ibm_runtime/)
 - Interference effects can be used to design quantum algorithms. [[4]](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
 
-### Notations
+### Notations 
 
 - States in Fourier basis are often denoted with ~
 
@@ -59,3 +63,9 @@ A lab where I tinker with quantum computing and quantum machine learning.
 7. [StackExchange | Who introduced the "dagger" symbol as conjugate transpose in quantum mechanics?](https://hsm.stackexchange.com/a/11432/18069)
 8. [Learn Quantum Computation using Qiskit](https://qiskit.org/textbook/preface.html)
 9. [Qiskit Textbook (new version of the above)](https://qiskit.org/learn/)
+10. [Qiskit Docs | Quantum Machine Learning Course](https://learn.qiskit.org/course/machine-learning/)
+11. [PennyLane | Learn Quantum Computing](https://pennylane.ai/qml/)
+12. [Amazon Braket](https://aws.amazon.com/braket/)
+13. [TensorFlow Quantum](https://www.tensorflow.org/quantum)
+14. [Cirq](https://quantumai.google/cirq)
+15. [pyQuil](https://pyquil-docs.rigetti.com/en/stable/)
