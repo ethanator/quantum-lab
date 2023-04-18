@@ -5,7 +5,6 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 - April 16, 2023 - April 22, 2023
     - Function fitting
-    
 
 - April 9, 2023 - April 15, 2023
     - [HHL Algorithm](https://youtu.be/hQpdPM-6wtU)
