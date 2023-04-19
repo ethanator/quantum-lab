@@ -65,6 +65,12 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 ## References
 
+### Papers
+
+1. [Martyn et al, "A Grand Unification of Quantum Algorithms"](https://arxiv.org/pdf/2105.02859.pdf)
+
+### Others
+
 1. [YouTube | Quantum Machine Learning Explained by IBM Technology](https://www.youtube.com/watch?v=NqHKr9CGWJ0)
 2. [Qiskit Docs | Get started with the Sampler primitive](https://qiskit.org/documentation/partners/qiskit_ibm_runtime/tutorials/how-to-getting-started-with-sampler.html)
 3. [Qiskit Docs | Qiskit Runtime overview](https://qiskit.org/documentation/partners/qiskit_ibm_runtime/)
