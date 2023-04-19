@@ -5,6 +5,7 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 - April 16, 2023 - April 22, 2023
     - Function fitting
+    - Plan: Chapters 1, 2 > Part III > Chapter 3 > Part II
 
 - April 9, 2023 - April 15, 2023
     - [HHL Algorithm](https://youtu.be/hQpdPM-6wtU)
@@ -44,6 +45,17 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 ## Notes
 
+- 3 branches of Quantum Information Science (QIS) [[16]](https://www.amazon.ca/-/fr/Jack-D-Hidary-dp-3030832732/dp/3030832732/)
+    - Computation
+    - Communication: No eavesdropping
+    - Sensing: Micro-PNT (positioning, navigation, timing) devices
+- Current era: NISQ (noisy intermediate-scale quantum) computers, coined by John Preskill of CalTech [[16]](https://www.amazon.ca/-/fr/Jack-D-Hidary-dp-3030832732/dp/3030832732/)
+    - No full error-correction
+    - < 10^6 qubits
+    - vs. scaled fault-tolerant computers
+- Definition of a Quantum Computer: A device that leverages specific properties described by quantum mechanics (QM) to perform computation [[16]](https://www.amazon.ca/-/fr/Jack-D-Hidary-dp-3030832732/dp/3030832732/)
+- Superposition Principle: The linear combination of 2+ state vectors is another state vector in the same Hilbert space and describes another state of the system [[16]](https://www.amazon.ca/-/fr/Jack-D-Hidary-dp-3030832732/dp/3030832732/)
+- Born rule: The modulus squared of the amplitude of a state is the probability of that state resulting after measurement [[16]](https://www.amazon.ca/-/fr/Jack-D-Hidary-dp-3030832732/dp/3030832732/)
 - Qiskit Runtime includes two primitives: Estimator and Sampler. [[3]](https://qiskit.org/documentation/partners/qiskit_ibm_runtime/)
 - Interference effects can be used to design quantum algorithms. [[4]](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
 
@@ -68,3 +80,5 @@ A lab where I tinker with quantum computing and quantum machine learning.
 13. [TensorFlow Quantum](https://www.tensorflow.org/quantum)
 14. [Cirq](https://quantumai.google/cirq)
 15. [pyQuil](https://pyquil-docs.rigetti.com/en/stable/)
+16. [Quantum Computing: An Applied Approach (2nd Edition)](https://www.amazon.ca/-/fr/Jack-D-Hidary-dp-3030832732/dp/3030832732/)
+17. [GitHub | JackHidary/quantumcomputingbook](https://github.com/JackHidary/quantumcomputingbook)
