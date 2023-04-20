@@ -4,3 +4,5 @@ pandas==1.5.3
 pennylane==0.29.1
 pennylane-sf==0.29.0
 qiskit==0.42.1
+torch==2.0.0
+torchvision==0.15.1

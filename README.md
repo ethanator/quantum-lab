@@ -5,7 +5,10 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 - April 16, 2023 - April 22, 2023
     - Function fitting
-    - Plan: Chapters 1, 2 > Part III > Chapter 3 > Part II
+    - Plan
+        - Chapters 1, 2 > Part III > Chapter 3 > Part II
+        - [Khan Academy | Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
+        - [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/)
 
 - April 9, 2023 - April 15, 2023
     - [HHL Algorithm](https://youtu.be/hQpdPM-6wtU)
@@ -58,6 +61,13 @@ A lab where I tinker with quantum computing and quantum machine learning.
 - Born rule: The modulus squared of the amplitude of a state is the probability of that state resulting after measurement [[16]](https://www.amazon.ca/-/fr/Jack-D-Hidary-dp-3030832732/dp/3030832732/)
 - Qiskit Runtime includes two primitives: Estimator and Sampler. [[3]](https://qiskit.org/documentation/partners/qiskit_ibm_runtime/)
 - Interference effects can be used to design quantum algorithms. [[4]](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
+- Theorem of Quantum Signal Processing (QSP)[[19]](https://pennylane.ai/qml/demos/function_fitting_qsp.html)
+    - Measuring in the Hadamard basis to relax the third condition of the theorem
+    - Signal Rotation Operator (SRO)
+    - Signal Processing Operator (SPO)
+    - f(x) is even iff f(x) = f(-x), is odd iff f(x) = -f(-x) [[18]](https://www.nagwa.com/en/videos/432178657986/)
+- [lambeq](https://cqcl.github.io/lambeq/)
+    - QNLP model: sentence --parsing-> syntax tree --encoding-> string diagram --rewriting-> rewritten string diagram --parameterization-> quantum circuit / tensor net --optimization-> task-specific output
 
 ### Notations 
 
@@ -69,7 +79,11 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 1. [Martyn et al, "A Grand Unification of Quantum Algorithms"](https://arxiv.org/pdf/2105.02859.pdf)
 
-### Others
+### Communities
+
+1. [Discord | QNLP](https://discord.com/channels/905463572497321995/)
+
+### Other Resources
 
 1. [YouTube | Quantum Machine Learning Explained by IBM Technology](https://www.youtube.com/watch?v=NqHKr9CGWJ0)
 2. [Qiskit Docs | Get started with the Sampler primitive](https://qiskit.org/documentation/partners/qiskit_ibm_runtime/tutorials/how-to-getting-started-with-sampler.html)
@@ -88,3 +102,7 @@ A lab where I tinker with quantum computing and quantum machine learning.
 15. [pyQuil](https://pyquil-docs.rigetti.com/en/stable/)
 16. [Quantum Computing: An Applied Approach (2nd Edition)](https://www.amazon.ca/-/fr/Jack-D-Hidary-dp-3030832732/dp/3030832732/)
 17. [GitHub | JackHidary/quantumcomputingbook](https://github.com/JackHidary/quantumcomputingbook)
+18. [Parity of a Polynomial Function](https://www.nagwa.com/en/videos/432178657986/)
+19. [PennyLane Tutorial | Function fitting using Quantum Signal Processing](https://pennylane.ai/qml/demos/function_fitting_qsp.html)
+20. [PennyLane Blog | How to start learning quantum machine learning](https://pennylane.ai/blog/2021/10/how-to-start-learning-quantum-machine-learning/)
+21. [PennyLane Blog | Quantum NLP with the lambeq–PennyLane integration](https://pennylane.ai/blog/2023/04/quantum-nlp-with-the-lambeq-pennylane-integration/)
