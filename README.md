@@ -3,12 +3,16 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 ## Roadmap
 
-- April 16, 2023 - April 22, 2023
-    - Function fitting
+- May 2, 2023 - May 6, 2023
+    - Chapter 1
+    - Chapter 2
     - Plan
-        - Chapters 1, 2 > Part III > Chapter 3 > Part II
+        - Part III > Chapter 3 > Part II
         - [Khan Academy | Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
         - [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/)
+
+- April 16, 2023 - April 22, 2023
+    - Function fitting
 
 - April 9, 2023 - April 15, 2023
     - [HHL Algorithm](https://youtu.be/hQpdPM-6wtU)
@@ -68,6 +72,11 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - f(x) is even iff f(x) = f(-x), is odd iff f(x) = -f(-x) [[18]](https://www.nagwa.com/en/videos/432178657986/)
 - [lambeq](https://cqcl.github.io/lambeq/)
     - QNLP model: sentence --parsing-> syntax tree --encoding-> string diagram --rewriting-> rewritten string diagram --parameterization-> quantum circuit / tensor net --optimization-> task-specific output
+- Landauer's Bound (LB)
+    - Minimum amount of energy dissipated for an irreversible computation
+    - Energy cost of erasure of n bits is nkTln 2 where k is the Boltzmann constant, and T the temperature in Kelvin of the heat sink surrounding the computing device
+- In classical computing we make use of irreversible computations, whereas in quantum computing we limit ourselves to reversible logical operations
+    - If we perform an irreversible operation, we have lost information and therefore a measurement
 
 ### Notations 
 
