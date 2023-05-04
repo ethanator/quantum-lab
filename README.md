@@ -4,10 +4,9 @@ A lab where I tinker with quantum computing and quantum machine learning.
 ## Roadmap
 
 - May 2, 2023 - May 6, 2023
-    - Chapter 1
-    - Chapter 2
+    - Chapters 1 and 2
     - Plan
-        - Part III > Chapter 3 > Part II
+        - Chapter 11 Part III > Chapter 3 > Part II
         - [Khan Academy | Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
         - [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/)
 
@@ -77,6 +76,23 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - Energy cost of erasure of n bits is nkTln 2 where k is the Boltzmann constant, and T the temperature in Kelvin of the heat sink surrounding the computing device
 - In classical computing we make use of irreversible computations, whereas in quantum computing we limit ourselves to reversible logical operations
     - If we perform an irreversible operation, we have lost information and therefore a measurement
+- History of Quantum Computing [[16]](https://www.amazon.ca/-/fr/Jack-D-Hidary-dp-3030832732/dp/3030832732/)
+    - Paul Benioff, Yuri Manin, Richard Feynman
+    - David Deutsch and Richard Josza showed deterministic quantum advantage
+    - Ethan Bernstein and Umesh Vazirani (BV) showed in a 1993 paper that non-deterministic quantum advantage (even when small errors are allowed). QFT was also described in the same paper, which would serve as a critical component of Shor's algorithm
+    - Daniel Simon, a postdoc at the University of Montreal in 1994
+    - Seth Lloyd proposed the first practical appraoch to a working QC
+    - In 1994, Peter Shor was a researcher in the mathematical division of Bell Labs in New Jersey. Shor's algorithm achieved exponential speedup
+    - In 2001, Isaac Chuang et al implemented Shor's algorithm on a nuclear magnetic resonance (NMR) system to factor the number 15 as a demonstration
+    - Lov Grover demonstrated that one can achieve quadratic speedup in a search algorithm on a QC
+    - Farhi and Gutmann introduced Hamiltonian oracles and the idea of implementing continuous time models of quantum computation which are different than gate-based approaches
+    - In 1999- 2001, Yasunobu Nakamura built and demonstrated a functioning, controllable superconducting qubit
+    - Ion trap quantum computers
+    - In 1996, David DiVincenzo outlined the key criteria of a quantum computer
+- Mathematics
+    - John von Neumann observed in his "Mathematical Foundations of Quantum Mechanics" that all of quantum mechanics can be described by linear algebra
+- qubit, qutrit, qudit
+    - Each of these systems can run any algorithm that the others can, i.e., they can simulate each other
 
 ### Notations 
 
