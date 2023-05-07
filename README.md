@@ -97,6 +97,11 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - The term orthogonal is more general than the term perpendicular in that it covers the case where one of the vectors is the zero vector. In this case, we must use the term orthogonal and not perpendicular
     - Dirac notation (developed by Paul Dirac)
         - `<i|A|j>` is a clever way to write the entry in the i-th row and j-th column of the matrix A
+    - Modulus of a complex number $a + bi$ is defined to be $\sqrt{a^2+b^2}$
+    - Conjugate of $a + bi$ is $a - bi$
+    - Every number is a vector and every vector is a matrix
+    - Squared norm of a vector $|v|^2 := \bar{v_1}\cdot v_1 + \bar{v_2}\cdot v_2 + \codts + \bar{v_n}\cdot v_n$
+    - Inner product of two vectors $<u,v> := \bar{u_1}v_1 + \bar{u_2}v_2 + \cdots + \bar{u_n}v_n$. The dot product and the inner product agree only if the entries of the vectors we are considering are exclusively real numbers. $<u|v> := <u,v>$.
 - qubit, qutrit, qudit
     - Each of these systems can run any algorithm that the others can, i.e., they can simulate each other
 
