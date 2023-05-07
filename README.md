@@ -91,7 +91,7 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - In 1996, David DiVincenzo outlined the key criteria of a quantum computer
 - Mathematics
     - John von Neumann observed in his "Mathematical Foundations of Quantum Mechanics" that all of quantum mechanics can be described by linear algebra
-    - $R^4$ and $C^2$ are [isomorphic](https://math.stackexchange.com/a/619302/114665)
+    - $\mathbb{R}^4$ and $\mathbb{C}^2$ are [isomorphic](https://math.stackexchange.com/a/619302/114665)
     - Hermitian operators always have real eigenvalues
     - $L^p$-[norm of a vector](https://angms.science/doc/Math/LA/LA_4_VectorLpNorm.pdf)
     - The term orthogonal is more general than the term perpendicular in that it covers the case where one of the vectors is the zero vector. In this case, we must use the term orthogonal and not perpendicular
