@@ -105,7 +105,7 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - [Greek letters](https://youtu.be/28yu1PFc438) and [how to type them in LaTeX](https://fr.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)
     - When a line subtends an angle, lines drawn from its ends form that angle at the point where they meet
     - Rectangular or Cartesian form $a + bi$ vs. Polar form $(r, \theta)$
-    - Euler's formula: $z = e^{i\theta} = \cos{\theta} + i\sin(\theta)$
+    - Euler's formula: $z = e^{i\theta} = \cos{\theta} + i\sin(\theta)$. If the complex number $z$ has radius $r$ instead of $1$, $z = re^{i\theta}$
 - qubit, qutrit, qudit
     - Each of these systems can run any algorithm that the others can, i.e., they can simulate each other
 
