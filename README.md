@@ -3,17 +3,19 @@ A lab where I tinker with quantum computing and quantum machine learning.
 
 ## Roadmap
 
-- May 2, 2023 - May 6, 2023
-    - Chapters 1 and 2
+- May 7 - 14, 2023
     - Plan
-        - Chapter 11 Part III > Chapter 3 > Part II
+        - Chapter 11 > Part III > Chapter 3 > Part II
         - [Khan Academy | Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
         - [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/)
 
-- April 16, 2023 - April 22, 2023
+- May 2 - 6, 2023
+    - Chapters 1 and 2
+
+- April 16 - 22, 2023
     - Function fitting
 
-- April 9, 2023 - April 15, 2023
+- April 9 - 15, 2023
     - [HHL Algorithm](https://youtu.be/hQpdPM-6wtU)
         - [Quantum Matrix Inversion](https://youtu.be/24gxm-DhH2E)
         - Hermitian simulation
@@ -27,7 +29,7 @@ A lab where I tinker with quantum computing and quantum machine learning.
         - Quantum PCA
     - [Grover's Algorithm](https://youtu.be/0RPFWZj7Jm0)
 
-- April 1, 2023 - April 8, 2023
+- April 1 - 8, 2023
     - [Single qubit gates](https://qiskit.org/textbook/ch-states/single-qubit-gates.html)
         - Bloch sphere
         - Pauli gates: X-gate (NOT gate), Y-, Z-gates
@@ -100,10 +102,10 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - Modulus of a complex number $a + bi$ is defined to be $\sqrt{a^2+b^2}$
     - Conjugate of $a + bi$ is $a - bi$
     - Every number is a vector and every vector is a matrix
-    - Squared norm of a vector $|v|^2 := \bar{v}_1\cdot v_1 + \bar{v}_2\cdot v_2 + \cdots + \bar{v}_n\cdot v_n$
-    - Inner product of two vectors $\langle u,v \rangle := \bar{u}_1v_1 + \bar{u}_2v_2 + \cdots + \bar{u}_n v_n$
+    - Squared norm of a vector $|v|^2\coloneqq\bar{v}_1\cdot v_1 + \bar{v}_2\cdot v_2 + \cdots + \bar{v}_n\cdot v_n$
+    - Inner product of two vectors $\langle u,v \rangle\coloneqq\bar{u}_1v_1 + \bar{u}_2v_2 + \cdots + \bar{u}_n v_n$
         - The dot product and the inner product agree only if the entries of the vectors we are considering are exclusively real numbers
-        - $\langle u|v\rangle := \langle u,v\rangle = \bar{u}^{T}v = u^{\dagger}v$
+        - $\langle u|v\rangle\coloneqq\langle u,v\rangle = \bar{u}^{T}v = u^{\dagger}v$
         - We may think of $\langle u|$ as of a vector $u$ as the conjugate-transpose of the vector $u$
     - [Greek letters](https://youtu.be/28yu1PFc438) and [how to type them in LaTeX](https://fr.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)
     - When a line subtends an angle, lines drawn from its ends form that angle at the point where they meet
@@ -111,8 +113,13 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - Euler's formula: $z = e^{i\theta} = \cos{\theta} + i\sin(\theta)$. If the complex number $z$ has radius $r$ instead of $1$, $z = re^{i\theta}$
     - $X$ is the NOT operator or the "bit flip" operator
     - Matrix multiplication is an associative operation: $(AB)C = A(BC)$
+    - A unitary operator is an operator whose inverse is its conjugate transpose. It preserves the norm of the vector on which it operates.
 - qubit, qutrit, qudit
     - Each of these systems can run any algorithm that the others can, i.e., they can simulate each other
+    - Quantum states are represented as vectors with norm 1 living in a Hilbert space
+    - Two matrices are similar iff they differ only by a change of basis
+    - $HXH = Z, HZH = X, HYH = -Y, H^{-1} = H^\dagger = H, X^2 = Y^2 = Z^2 = H^2 = I$ (see [how to calculate the inverse of a 2x2 matrix](https://www.cuemath.com/algebra/inverse-of-2x2-matrix/))
+    - Exponential of a matrix $A$: $\exp{A}\equiv e^A\coloneqq\sum_{n=0}^\infty\frac{1}{n!}A^n$
 
 ### Notations 
 
