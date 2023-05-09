@@ -119,8 +119,8 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - Quantum states are represented as vectors with norm 1 living in a Hilbert space
     - Two matrices are similar iff they differ only by a change of basis
     - $HXH = Z, HZH = X, HYH = -Y, H^{-1} = H^\dagger = H, X^2 = Y^2 = Z^2 = H^2 = I$ (see [how to calculate the inverse of a 2x2 matrix](https://www.cuemath.com/algebra/inverse-of-2x2-matrix/))
-    - Exponential of a matrix $A$: $\exp{A}\equiv e^A\coloneqq\sum_{n=0}^\infty\frac{1}{n!}A^n$
-    - $e^{i\theta A} = \cos{\theta}I + i\sin{\theta}A$ for any operator $A$ such that $A^2 = I$
+    - Exponential of a matrix $A$: $\exp{A}\equiv e^A\coloneqq\Sigma_{n=0}^\infty\frac{1}{n!}A^n$
+    - $e^{i\theta A} = \cos(\theta)I + i\sin(\theta)A$ for any operator $A$ such that $A^2 = I$
 
 ### Notations 
 
