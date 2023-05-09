@@ -103,7 +103,7 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - Squared norm of a vector $|v|^2 := \bar{v}_1\cdot v_1 + \bar{v}_2\cdot v_2 + \cdots + \bar{v}_n\cdot v_n$
     - Inner product of two vectors $\langle u,v \rangle := \bar{u}_1v_1 + \bar{u}_2v_2 + \cdots + \bar{u}_n v_n$
         - The dot product and the inner product agree only if the entries of the vectors we are considering are exclusively real numbers
-        - $\langle u|v\rangle := \langle u,v\rangle = \bar{u}^{T}v = u^{\dag}v$
+        - $\langle u|v\rangle := \langle u,v\rangle = \bar{u}^{T}v = u^{\dagger}v$
         - We may think of $\langle u|$ as of a vector $u$ as the conjugate-transpose of the vector $u$
     - [Greek letters](https://youtu.be/28yu1PFc438) and [how to type them in LaTeX](https://fr.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)
     - When a line subtends an angle, lines drawn from its ends form that angle at the point where they meet
