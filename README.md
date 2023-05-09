@@ -4,6 +4,7 @@ A lab where I tinker with quantum computing and quantum machine learning.
 ## Roadmap
 
 - May 7 - 14, 2023
+    - Chapter 11.1-4
     - Plan
         - Chapter 11 > Part III > Chapter 3 > Part II
         - [Khan Academy | Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
