@@ -101,11 +101,16 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - Conjugate of $a + bi$ is $a - bi$
     - Every number is a vector and every vector is a matrix
     - Squared norm of a vector $|v|^2 := \bar{v}_1\cdot v_1 + \bar{v}_2\cdot v_2 + \cdots + \bar{v}_n\cdot v_n$
-    - Inner product of two vectors $\langle u,v \rangle := \bar{u}_1v_1 + \bar{u}_2v_2 + \cdots + \bar{u}_n v_n$. The dot product and the inner product agree only if the entries of the vectors we are considering are exclusively real numbers. $\langle u|v\rangle := \langle u,v\rangle$.
+    - Inner product of two vectors $\langle u,v \rangle := \bar{u}_1v_1 + \bar{u}_2v_2 + \cdots + \bar{u}_n v_n$
+        - The dot product and the inner product agree only if the entries of the vectors we are considering are exclusively real numbers
+        - $\langle u|v\rangle := \langle u,v\rangle = \bar{u}^{T}v = u^{\dagger}v$
+        - We may think of $\langle u|$ as of a vector $u$ as the conjugate-transpose of the vector $u$
     - [Greek letters](https://youtu.be/28yu1PFc438) and [how to type them in LaTeX](https://fr.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)
     - When a line subtends an angle, lines drawn from its ends form that angle at the point where they meet
     - Rectangular or Cartesian form $a + bi$ vs. Polar form $(r, \theta)$
     - Euler's formula: $z = e^{i\theta} = \cos{\theta} + i\sin(\theta)$. If the complex number $z$ has radius $r$ instead of $1$, $z = re^{i\theta}$
+    - $X$ is the NOT operator or the "bit flip" operator
+    - Matrix multiplication is an associative operation: $(AB)C = A(BC)$
 - qubit, qutrit, qudit
     - Each of these systems can run any algorithm that the others can, i.e., they can simulate each other
 
