@@ -107,8 +107,8 @@ A lab where I tinker with quantum computing and quantum machine learning.
     - Inner product of two vectors $\langle u,v \rangle\coloneqq\bar{u}_1v_1 + \bar{u}_2v_2 + \cdots + \bar{u}_n v_n$
         - The dot product and the inner product agree only if the entries of the vectors we are considering are exclusively real numbers
         - $\langle u|v\rangle\coloneqq\langle u,v\rangle = \bar{u}^{T}v = u^{\dagger}v$
-        - We may think of $|u\rangle\langle v|$ as of a vector $u$ as the conjugate-transpose of the vector $u$
-    - Outer product of two vectors $\rangle v | = uv^\dagger$
+        - We may think of $\langle u|$ of a vector $u$ as the conjugate-transpose of the vector $u$
+    - Outer product of two vectors $|u\rangle\langle v| = uv^\dagger$
     - Tensor product of an $a\times b$ matrix with a $c\times d$ matrix is an $(a\cdot c)\times(b\cdot d)$ matrix
         - A scalar is a 0-tensor, a vector is a 1-tensor, and a matrix is a 3-tensor
         - $|00\rangle = |0\rangle\otimes|0\rangle$
