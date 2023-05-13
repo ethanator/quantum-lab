@@ -4,6 +4,9 @@ A lab where I tinker with quantum computing and quantum machine learning.
 ## Roadmap
 
 - May 7 - 14, 2023
+    - Need to plan for [these upcoming events](https://youtu.be/mgUQGViF29Y)
+    - Hamiltonian: Total energy of a system $H = K + V$, allowing you to solve the Shroedinger equation, which calculates how the system will evolve and change in time
+    - Gate fidelity: A measure of how similar two gates are, or refers to how similar a noisy gate is to the ideal gate. Need to run the code [here](https://youtu.be/KCPuw7UDNag)
     - Chapter 11.1-5
     - Plan
         - Chapter 11 > Part III > Chapter 3 > Part II
